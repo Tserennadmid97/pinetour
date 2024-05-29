@@ -1,0 +1,320 @@
+* body {
+  background-color: white;
+
+
+}
+
+.main-container {
+  width: 1440px;
+  height: 3598px;
+  top: 247px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #f4f4f4;
+
+}
+
+header {
+  background-color: black;
+  padding-top: 9.5px;
+  padding-bottom: 9.5px;
+  text-align: center;
+  width: 1440px
+}
+
+main {
+  margin: 0;
+  text-align: center;
+  padding-bottom: 200px;
+
+
+
+}
+
+main h1 {
+  font-size: 72px;
+  padding-top: 40px;
+  font-family: 'Montserrat'
+
+}
+
+main h4 {
+  font-size: 24px;
+  color: gray;
+  padding-bottom: 40px;
+  font-family: 'Montserrat'
+}
+
+main img {
+
+
+  padding: 21px;
+
+}
+
+section {
+  width: 1200px;
+  padding-left: 80px;
+  padding-right: 80px;
+
+}
+
+#feature-main-container {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1440px;
+  justify-content: space-between;
+  height: auto;
+  font-family: 'Montserrat'
+
+}
+
+.map {
+  display: flex;
+  float: right;
+  width: 692px;
+  height: 845px;
+  padding-right: 150px;
+}
+
+.feature-routine-container {
+ 
+  width: 600px;
+  font-family: 'Montserrat'
+
+}
+
+.feature-title-container {
+
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  font-family: 'Montserrat'
+
+}
+
+.feature-title-container h5 {
+  color: gray;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 2px;
+  font-family: 'Montserrat'
+}
+
+.feature-title-container h2 {
+  font-size: 48px;
+  margin-top: 0px;
+  font-family: 'Montserrat'
+}
+
+#feature-itinerary-main-container {
+  
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+  font-family: 'Montserrat'
+
+}
+
+.dotted-line {
+  border-left: 2px dashed black;
+  height: 480px;
+  position: absolute;
+  left: 112px; 
+  top: 1290px;
+  z-index: -1;
+}
+
+
+.days-container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  width: 50px;
+  color: #16A94A;
+  font-size: 17px;
+  border-radius: 50%;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+  font-family: 'Montserrat'
+}
+
+
+.days-container p span {
+  display: flex;
+  font-family: 'Montserrat'
+}
+
+.days-container p {
+  font-size: 16px;
+  margin: 10px;
+  padding-bottom: 18px;
+  padding-left: 90px;
+  position: absolute;
+  color: black;
+  font-weight: bold;
+  font-family: 'Montserrat'
+
+}
+
+.days-container span {
+  font-size: 12px;
+  margin: 10px;
+  padding-left: 95px;
+  padding-top: 40px;
+  position: absolute;
+  padding-bottom: 15px;
+  color: gray;
+  font-family: 'Montserrat'
+}
+
+#pricing-container-main {
+  margin-top: 80px;
+  text-align: center;
+  font-family: 'Montserrat'
+}
+
+.price-title-container h2 {
+  font-size: 24px;
+  color: gray;
+  margin-bottom: 2px;
+}
+
+.price-title-container h4 {
+  font-size: 48px;
+  margin-top: 2px;
+}
+
+#price-table-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+
+
+}
+
+
+.starter-pack,
+.luxury-pack {
+  border: 2px solid green;
+  width: 285px;
+  height: 370px;
+  border-radius: 24px;
+  background-color: #f4f4f4;
+
+}
+
+.starter-pack h4,
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+  font-weight: 700;
+  font-family: 'Montserrat'
+
+
+}
+
+
+
+li {
+  font-size: 20px;
+  font-weight: 700;
+  color: gray;
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 5px;
+
+
+}
+
+.luxury-pack p {
+  font-size: 32px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  padding-top: 25px;
+  font-weight: bold;
+}
+
+.starter-pack p {
+  font-size: 32px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  padding-top: ;
+  font-weight: bold;
+}
+
+
+
+.footer-button {
+  margin-top: 200px;
+  padding: 150px;
+  background-color: #171717;
+
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  width: 1000px;
+
+}
+
+.footer-button button {
+  background-color: #18BA51;
+  border-radius: 4px;
+  color: white;
+  border: 0;
+  margin: 10px;
+  padding: 12px;
+  font-weight: 700;
+
+}
+
+nav {
+  background: #101010;
+  padding: 80px 120px 80px 120px;
+  width: 1060px;
+  color: white;
+  font-size: 28px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+
+.social-media-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Facebook, .Instagram {
+  height: 35px;
+  margin: 10px;
+  width: 120px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #303030;
+  color: #f4f4f4;
+  border: none;
+  border-radius: 4px;
+  padding-top: 8px;
+  flex-direction: row-reverse;
+  font-family: "Montserrat";
+  text-align: center;
+  padding-left: 5px;
+
+}
+
+.Instagram img {
+  padding-right: 8px;
+ 
+}
+.Facebook img {
+  padding-right: 8px;
+ 
+}
